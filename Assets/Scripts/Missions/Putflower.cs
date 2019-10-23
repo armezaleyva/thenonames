@@ -10,7 +10,7 @@ public class Putflower : MonoBehaviour
     {
         if (flower.tag == "cubo")
         {
-            SceneManager.LoadScene("Savetheworld");
+            SceneManager.LoadScene("Scene6");
         }
     }
 }
