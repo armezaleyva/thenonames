@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!154 &118087764
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -513,7 +513,6 @@ GameObject:
   - component: {fileID: 373669918}
   - component: {fileID: 384498368}
   - component: {fileID: 373509024}
-  - component: {fileID: 373509026}
   - component: {fileID: 373509025}
   m_Layer: 0
   m_Name: TeleportPoint (3)
@@ -660,19 +659,6 @@ MonoBehaviour:
   onDetachedFromHand:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &373509026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373467034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86df5ff7df75edb439e36d863bc317d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flower: {fileID: 1624901871}
 --- !u!4 &373557632
 Transform:
   m_ObjectHideFlags: 0
@@ -1335,7 +1321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &533075030
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -1543,7 +1529,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 1.5046787e-36, w: 2.9057e-41}
+  m_BoundingSphereOverride: {x: 1.8e-43, y: 1.8e-43, z: 7e-45, w: 9.1835e-41}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2458,6 +2444,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flower: {fileID: 1624901871}
+  terrain1: {fileID: 118087763}
+  terrain2: {fileID: 779260974}
+  terrain3: {fileID: 1761188877}
+  terrain4: {fileID: 533075029}
 --- !u!136 &1624901874
 CapsuleCollider:
   m_ObjectHideFlags: 0
