@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 public class Putflower : MonoBehaviour
 {
     public GameObject flower;
-    public void Putflowe()
+    public void Putflor()
     {
+        
+
         if (flower.tag == "cubo")
         {
-            SceneManager.LoadScene("Scene6");
+            //SceneManager.LoadScene("Scene6");
         }
     }
 }
