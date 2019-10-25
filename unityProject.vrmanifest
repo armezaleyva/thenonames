@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.spaceapps.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\ITSON WS\\Documents\\GitHub\\thenonames\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\Proyecto\\thenonames\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Space Apps [Testing]"
