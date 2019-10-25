@@ -812,7 +812,7 @@ namespace Valve.VR.InteractionSystem
 		{
 			if ( visible && !teleporting )
 			{
-                if ( pointedAtTeleportMarker != null && pointedAtTeleportMarker.locked == false )
+				if ( pointedAtTeleportMarker != null && pointedAtTeleportMarker.locked == false )
 				{
 					//Pointing at an unlocked teleport marker
 					teleportingToMarker = pointedAtTeleportMarker;
