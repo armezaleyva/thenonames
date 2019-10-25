@@ -10,15 +10,18 @@ public class Putflower : MonoBehaviour
     public GameObject terrain2;
     public GameObject terrain3;
     public GameObject terrain4;
+    public GameObject instructionText;
+    public GameObject finalText;
 
-    private bool canContinue = true;
 
     public void Putflor()
     {
         if (flower.tag == "cubo")
         {
             StartCoroutine(TransitionTerrains());
-            //SceneManager.LoadScene("Scene6");
+
+            instructionText.SetActive(false);
+            finalText.SetActive(true);
         }
     }
 
@@ -32,7 +35,6 @@ public class Putflower : MonoBehaviour
     IEnumerator LoadTerrain(GameObject oldTerrain, GameObject newTerrain) {
         oldTerrain.SetActive(false);
         newTerrain.SetActive(true);
-        canContinue = false;
 
         yield return new WaitForSeconds(5);
     }
