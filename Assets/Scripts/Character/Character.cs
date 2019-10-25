@@ -5,15 +5,18 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     [SerializeField]
-    protected int health = 5;
+    public int health = 5;
     [SerializeField]
-    protected int maxHealth = 10;
-
+    public int maxHealth = 10;
+    public int level = 3;
     public void SavePlayer(){
         SaveSystem.SavePlayer(this);
     }
     public void LoadPlayer(){
         PlayerData data = SaveSystem.LoadPlayer();
+
+        health = data.health;
+        level = data.level;
 
         Vector3 position;
         position.x = data.position[0];
