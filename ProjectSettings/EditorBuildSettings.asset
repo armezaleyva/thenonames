@@ -4,23 +4,4 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Earth.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/Future.unity
-    guid: b68a57a2e70b7df46b16a950f8d905bb
-  - enabled: 1
-    path: Assets/FX/EffectExamples/FX.unity
-    guid: 163adec682b5ccd4c8dbb7766c20f3fb
-  - enabled: 1
-    path: Assets/Scenes/Savetheworld.unity
-    guid: d58729805caecee488ee87830b7cbd5b
-  - enabled: 1
-    path: Assets/Scenes/Scene5.unity
-    guid: 12717cf91d57456419c9b24db5359c98
-  - enabled: 1
-    path: Assets/Scenes/City.unity
-    guid: 819e90a3007ac704bbd1683ca0fa5c54
-  m_configObjects: {}
+  m_Scenes: []
