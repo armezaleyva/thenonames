@@ -5484,7 +5484,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: NaN, y: 6.2e-44, z: 2.296e-41, w: 7.6611395e-37}
+  m_BoundingSphereOverride: {x: 3.7199e-41, y: 1.02e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -11666,7 +11666,7 @@ MonoBehaviour:
   isGlobal: 1
   blendDistance: 0
   weight: 1
-  priority: 4.26
+  priority: 4.98
 --- !u!65 &1773862752
 BoxCollider:
   m_ObjectHideFlags: 0
