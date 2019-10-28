@@ -5,18 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Earth.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -27,9 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/City.unity
     guid: 819e90a3007ac704bbd1683ca0fa5c54
   - enabled: 1
-    path: Assets/Scenes/Future2.unity
-    guid: 19b36b6bfff2c6d48becb9a7a9529038
+    path: Assets/Scenes/Llano.unity
+    guid: 689af3c130a3d0f4e934644afeb8ad52
+  - enabled: 1
+    path: Assets/Scenes/Savetheworld.unity
+    guid: d58729805caecee488ee87830b7cbd5b
   - enabled: 1
     path: Assets/Scenes/Scene5.unity
     guid: 12717cf91d57456419c9b24db5359c98
+  - enabled: 1
+    path: Assets/Scenes/Windridge City Demo Scene.unity
+    guid: d4f6cb8218e74554d961ab891c3ed977
+  - enabled: 1
+    path: Assets/Scenes/Future2.unity
+    guid: 19b36b6bfff2c6d48becb9a7a9529038
   m_configObjects: {}

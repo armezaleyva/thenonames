@@ -16,6 +16,7 @@ public class Putflower : MonoBehaviour
 
     public void Putflor()
     {
+        Debug.Log("lol");
         if (flower.tag == "cubo")
         {
             StartCoroutine(TransitionTerrains());
