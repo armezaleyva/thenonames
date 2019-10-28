@@ -6,9 +6,9 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 #if UNITY_EDITOR
 using UnityEditor;
-using UnityEngine.SceneManagement;
 #endif
 
 namespace Valve.VR.InteractionSystem
