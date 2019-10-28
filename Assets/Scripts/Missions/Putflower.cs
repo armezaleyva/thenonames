@@ -13,10 +13,17 @@ public class Putflower : MonoBehaviour
     public GameObject instructionText;
     public GameObject finalText;
 
+    void Start(){
+        if (flower.tag == "cubo")
+        {
+            StartCoroutine(TransitionTerrains());
 
+            instructionText.SetActive(false);
+            finalText.SetActive(true);
+        }
+    }
     public void Putflor()
     {
-        Debug.Log("lol");
         if (flower.tag == "cubo")
         {
             StartCoroutine(TransitionTerrains());
