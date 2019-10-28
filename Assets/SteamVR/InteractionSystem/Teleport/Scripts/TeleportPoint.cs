@@ -8,6 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 #if UNITY_EDITOR
 using UnityEditor;
+using UnityEngine.SceneManagement;
 #endif
 
 namespace Valve.VR.InteractionSystem
@@ -70,7 +71,7 @@ namespace Valve.VR.InteractionSystem
 
 			animation = GetComponent<Animation>();
 
-			tintColorID = Shader.PropertyToID( "_TintColor" );
+			//tintColorID = Shader.PropertyToID( "_TintColor" );
 
 			moveLocationIcon.gameObject.SetActive( false );
 			switchSceneIcon.gameObject.SetActive( false );
@@ -189,13 +190,13 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		public override void SetAlpha( float tintAlpha, float alphaPercent )
 		{
-			tintColor = markerMesh.material.GetColor( tintColorID );
+			//tintColor = markerMesh.material.GetColor( tintColorID );
 			tintColor.a = tintAlpha;
 
-			markerMesh.material.SetColor( tintColorID, tintColor );
-			switchSceneIcon.material.SetColor( tintColorID, tintColor );
-			moveLocationIcon.material.SetColor( tintColorID, tintColor );
-			lockedIcon.material.SetColor( tintColorID, tintColor );
+			//markerMesh.material.SetColor( tintColorID, tintColor );
+			//switchSceneIcon.material.SetColor( tintColorID, tintColor );
+			//moveLocationIcon.material.SetColor( tintColorID, tintColor );
+			//lockedIcon.material.SetColor( tintColorID, tintColor );
 
 			titleColor.a = fullTitleAlpha * alphaPercent;
 			titleText.color = titleColor;
@@ -221,7 +222,7 @@ namespace Valve.VR.InteractionSystem
 		{
 			if ( !string.IsNullOrEmpty( switchToScene ) )
 			{
-				Debug.Log("<b>[SteamVR Interaction]</b> TeleportPoint: Hook up your level loading logic to switch to new scene: " + switchToScene );
+				SceneManager.LoadScene(switchToScene);
 			}
 			else
 			{
